@@ -1,5 +1,5 @@
 """Tests for plugin.py."""
-import ckanext.aquacross_theme.plugin as plugin
+import ckanext.ponderful_theme.plugin as plugin
 
 def test_plugin():
     pass

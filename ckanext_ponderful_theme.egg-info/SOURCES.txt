@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+ckanext/__init__.py
+ckanext/ponderful_theme/__init__.py
+ckanext/ponderful_theme/plugin.py
+ckanext/ponderful_theme/tests/__init__.py
+ckanext/ponderful_theme/tests/test_plugin.py
+ckanext_ponderful_theme.egg-info/PKG-INFO
+ckanext_ponderful_theme.egg-info/SOURCES.txt
+ckanext_ponderful_theme.egg-info/dependency_links.txt
+ckanext_ponderful_theme.egg-info/entry_points.txt
+ckanext_ponderful_theme.egg-info/top_level.txt

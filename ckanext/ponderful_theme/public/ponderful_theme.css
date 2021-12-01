@@ -19,7 +19,7 @@
 }
 
 .account-masthead {
-    background-color: rgb(14, 122, 129);
+    background-color: #28b573;
 }
 
 
@@ -27,13 +27,13 @@
 /* Change the colors of the "Search Your Data" box. */
 
 .homepage .module-search .module-content {
-    background-color:#03757A;
+    background-color:#28b573;
     border-bottom: medium none;
     border-radius: 3px 3px 0 0;
 }
 
 .homepage .module-search .tags {
-    background-color: #DFC41C;
+    background-color: #2daae1;
     border-radius: 0 0 3px 3px;
     padding: 5px 10px 10px;
 }
@@ -48,13 +48,13 @@
 }
 
 .masthead .nav > li > a, .masthead .nav > li > a:focus, .masthead .nav > li > a:hover, .masthead .nav > .active > a, .masthead .nav > .active > a:hover, .masthead .nav > .active > a:focus {
-    color: rgb(14,122,129);
+    color: #28b573;
     text-shadow: none;
 }
 
 
 .masthead .navigation .nav-pills li a:hover, .masthead .navigation .nav-pills li.active a {
-    background-color: #dfc41c;
+    background-color: #2daae1;
 }
 
 .media-overlay .media-heading {
@@ -74,8 +74,8 @@
 /*This section is for buttons*/
 
 .btn-primary {
-    background-color: #0E7A81;
-    background-image: linear-gradient(to bottom, #0E7A81,#0E7A81);
+    background-color: #28b573;
+    background-image: linear-gradient(to bottom, #2daae1,#2daae1);
     background-repeat: repeat-x;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
     color: #ffffff;
@@ -90,7 +90,7 @@
 
 .site-footer,
 body {
-  background-color: rgb(14, 122, 129);
+  background-color: #28b573;
 }
 /* The text in the footer. */
 .site-footer,

@@ -10,22 +10,22 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='''ckanext-aquacross_theme''',
+    name='''ckanext-ponderful_theme''',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # http://packaging.python.org/en/latest/tutorial.html#version
     version='0.0.1',
 
-    description='''AQUACROSS theme''',
+    description='''Ponderful theme''',
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/AQUACROSS/ckanext-aquacross_theme',
+    url='https://github.com/Randbee/ckanext-ponderful_theme',
 
     # Author details
-    author='''AQUACROSS developers''',
-    author_email='''info@aquacross.eu''',
+    author='''''',
+    author_email='''''',
 
     # Choose your license
     license='AGPL',
@@ -79,7 +79,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points='''
         [ckan.plugins]
-        aquacross_theme=ckanext.aquacross_theme.plugin:Aquacross_ThemePlugin
+        ponderful_theme=ckanext.ponderful_theme.plugin:Ponderful_ThemePlugin
 	[babel.extractors]
 	ckan = ckan.lib.extract:extract_ckan
     ''',
