@@ -1,10 +1,10 @@
 Metadata-Version: 1.1
 Name: ckanext-aquacross-theme
 Version: 0.0.1
-Summary: AQUACROSS theme
-Home-page: https://github.com/AQUACROSS/ckanext-aquacross_theme
-Author: AQUACROSS developers
-Author-email: info@aquacross.eu
+Summary: Ponderful theme
+Home-page: https://github.com/Randbee/ckanext-ponderful_theme
+Author: Ponderful developers
+Author-email: info@ponderful.eu
 License: AGPL
 Description: .. You should enable this project on travis-ci.org and coveralls.io to make
            these badges work. The necessary Travis and Coverage config files have been
@@ -37,7 +37,7 @@ Description: .. You should enable this project on travis-ci.org and coveralls.io
             :alt: License
         
         =============
-        ckanext-aquacross_theme
+        ckanext-ponderful_theme
         =============
         
         .. Put a description of your extension here:
@@ -61,17 +61,17 @@ Description: .. You should enable this project on travis-ci.org and coveralls.io
            For example installing any non-Python dependencies or adding any required
            config settings.
         
-        To install ckanext-aquacross_theme:
+        To install ckanext-ponderful_theme:
         
         1. Activate your CKAN virtual environment, for example::
         
              . /usr/lib/ckan/default/bin/activate
         
-        2. Install the ckanext-aquacross_theme Python package into your virtual environment::
+        2. Install the ckanext-ponderful_theme Python package into your virtual environment::
         
-             pip install ckanext-aquacross_theme
+             pip install ckanext-ponderful_theme
         
-        3. Add ``aquacross_theme`` to the ``ckan.plugins`` setting in your CKAN
+        3. Add ``ponderful_theme`` to the ``ckan.plugins`` setting in your CKAN
            config file (by default the config file is located at
            ``/etc/ckan/default/production.ini``).
         
@@ -88,18 +88,18 @@ Description: .. You should enable this project on travis-ci.org and coveralls.io
         
             # The minimum number of hours to wait before re-checking a resource
             # (optional, default: 24).
-            ckanext.aquacross_theme.some_setting = some_default_value
+            ckanext.ponderful_theme.some_setting = some_default_value
         
         
         ------------------------
         Development Installation
         ------------------------
         
-        To install ckanext-aquacross_theme for development, activate your CKAN virtualenv and
+        To install ckanext-ponderful_theme for development, activate your CKAN virtualenv and
         do::
         
-            git clone https://github.com/AQUACROSS/ckanext-aquacross_theme.git
-            cd ckanext-aquacross_theme
+            git clone https://github.com/Randbee/ckanext-ponderful_theme.git
+            cd ckanext-ponderful_theme
             python setup.py develop
             pip install -r dev-requirements.txt
         
@@ -119,11 +119,11 @@ Description: .. You should enable this project on travis-ci.org and coveralls.io
         
         
         ---------------------------------
-        Registering ckanext-aquacross_theme on PyPI
+        Registering ckanext-ponderful_theme on PyPI
         ---------------------------------
         
-        ckanext-aquacross_theme should be availabe on PyPI as
-        https://pypi.python.org/pypi/ckanext-aquacross_theme. If that link doesn't work, then
+        ckanext-ponderful_theme should be availabe on PyPI as
+        https://pypi.python.org/pypi/ckanext-ponderful_theme. If that link doesn't work, then
         you can register the project on PyPI for the first time by following these
         steps:
         
