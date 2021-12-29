@@ -1,3 +1,12 @@
+/* ====================================
+   Set the Font 
+   ==================================== */
+
+*{
+    font-family:'Noto Sans';
+}
+
+
 /* ========================================================================
    The main masthead bar that contains the site logo, nav links, and search
    ======================================================================== */
@@ -53,6 +62,8 @@
 
 .masthead .navigation .nav-pills li a:hover, .masthead .navigation .nav-pills li.active a {
     background-color: #2daae1;
+    color: #FFF;
+    font-weight: bold;
 }
 
 .media-overlay .media-heading {
@@ -69,10 +80,17 @@
     z-index: 1;
 }
 
+/* Set the logo properties*/
+
+.logo img {
+  max-width:250px;
+  padding:5px;
+}
+
 /*This section is for buttons*/
 
 .btn-primary {
-    background-color: #28b573;
+    background-color: #2daae1;
     background-image: linear-gradient(to bottom, #2daae1,#2daae1);
     background-repeat: repeat-x;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
