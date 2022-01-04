@@ -10,7 +10,6 @@ class Ponderful_ThemePlugin(plugins.SingletonPlugin):
     def update_config(self, config_):
         toolkit.add_template_directory(config_, 'templates')
         toolkit.add_public_directory(config_, 'public')
-        toolkit.add_public_directory(config_, 'public/documentation')
         toolkit.add_resource('fanstatic', 'ponderful_theme')
 
     entry_points='''
