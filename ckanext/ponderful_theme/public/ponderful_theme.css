@@ -36,19 +36,17 @@
     padding: 5px 10px 10px;
 }
 
-.masthead::before, .masthead::after {
-    content: "";
-    display: table;
-    line-height: 0;
-    margin-bottom: 10px;
+.masthead {
+  border-bottom: #28b573 10px solid;
 }
 
-.masthead .nav > li > a, .masthead .nav > li > a:focus, .masthead .nav > li > a:hover, .masthead .nav > .active > a, .masthead .nav > .active > a:hover, .masthead .nav > .active > a:focus {
+.masthead .main-navbar > ul > li > a, .masthead .main-navbar > ul > li > a:focus, .masthead .main-navbar > ul > li > a:hover, .masthead .main-navbar > .active > a, .masthead .main-navbar > .active > a:hover, .masthead .main-navbar > .active > a:focus {
     color: #28b573;
+    font-weight: bold;
     text-shadow: none;
 }
 
-.masthead .navigation .nav-pills li a:hover, .masthead .navigation .nav-pills li.active a {
+.masthead .main-navbar ul li a:hover, .masthead .main-navbar ul li.active a {
     background-color: #2daae1;
     color: #FFF;
     font-weight: bold;
