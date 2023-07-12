@@ -2,20 +2,16 @@
    The main masthead bar that contains the site logo, nav links, and search
    ======================================================================== */
 
-.hero {
+.homepage .hero {
   background: url(/pond.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 264px; /* 185 = works in both IE and Firefox, 250=good, 264=height of main background image */
+  height: 364px;
 }
 
 .masthead {
-  /* background: url(/pondeful-logo-color-800px.png); */
   background-color: white;
-/*  background-repeat: no-repeat;
-  background-position: left 10px;
-  min-height: 125px; */
 }
 
 .account-masthead {
@@ -112,6 +108,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+/* Upstream fixes */
 
 .row > article {
   padding-right: 0;
@@ -121,4 +118,13 @@ body {
 .row > .primary {
   padding-right: 0;
   padding-left: 0;
+}
+
+.homepage .module-stats .card ul li a strong {
+  font-size: 35px;
+  line-height: 1.5;
+}
+
+.homepage .module-stats .card ul li {
+  margin-right: 20px;
 }
