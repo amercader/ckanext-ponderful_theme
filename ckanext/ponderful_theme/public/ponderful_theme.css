@@ -2,20 +2,16 @@
    The main masthead bar that contains the site logo, nav links, and search
    ======================================================================== */
 
-.hero {
+.homepage .hero {
   background: url(/pond.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 264px; /* 185 = works in both IE and Firefox, 250=good, 264=height of main background image */
+  height: 364px;
 }
 
 .masthead {
-  /* background: url(/pondeful-logo-color-800px.png); */
   background-color: white;
-/*  background-repeat: no-repeat;
-  background-position: left 10px;
-  min-height: 125px; */
 }
 
 .account-masthead {
@@ -36,19 +32,17 @@
     padding: 5px 10px 10px;
 }
 
-.masthead::before, .masthead::after {
-    content: "";
-    display: table;
-    line-height: 0;
-    margin-bottom: 10px;
+.masthead {
+  border-bottom: #28b573 10px solid;
 }
 
-.masthead .nav > li > a, .masthead .nav > li > a:focus, .masthead .nav > li > a:hover, .masthead .nav > .active > a, .masthead .nav > .active > a:hover, .masthead .nav > .active > a:focus {
+.masthead .main-navbar > ul > li > a, .masthead .main-navbar > ul > li > a:focus, .masthead .main-navbar > ul > li > a:hover, .masthead .main-navbar > .active > a, .masthead .main-navbar > .active > a:hover, .masthead .main-navbar > .active > a:focus {
     color: #28b573;
+    font-weight: bold;
     text-shadow: none;
 }
 
-.masthead .navigation .nav-pills li a:hover, .masthead .navigation .nav-pills li.active a {
+.masthead .main-navbar ul li a:hover, .masthead .main-navbar ul li.active a {
     background-color: #2daae1;
     color: #FFF;
     font-weight: bold;
@@ -112,4 +106,25 @@ body {
 /* The link texts in the footer. */
 .site-footer a {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* Upstream fixes */
+
+.row > article {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.row > .primary {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.homepage .module-stats .card ul li a strong {
+  font-size: 35px;
+  line-height: 1.5;
+}
+
+.homepage .module-stats .card ul li {
+  margin-right: 20px;
 }

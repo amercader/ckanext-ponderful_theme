@@ -1,0 +1,5 @@
+theme_css:
+  filters: cssrewrite
+  output: ponderful/%(version)s_theme.css
+  contents:
+    - ponderful_theme.css
